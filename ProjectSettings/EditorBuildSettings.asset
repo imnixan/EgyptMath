@@ -6,15 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ScreenRotator.unity
-    guid: b8d779e7398c73e46bc86bca1657e778
-  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 8c162fd823a1a03418b59cbf178b24c9
   - enabled: 1
     path: Assets/Scenes/Pyramids.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/Settings.unity
-    guid: d46c22f73ca9af14c9957c0d93d485b8
   m_configObjects: {}
