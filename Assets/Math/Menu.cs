@@ -15,8 +15,8 @@ public class Menu : MonoBehaviour
         vibroSwitcher;
 
     [SerializeField]
-    private RectTransform settngs,
-        record,
+    private RectTransform settngsBtn,
+        recordBtn,
         play;
 
     [SerializeField]
@@ -27,7 +27,7 @@ public class Menu : MonoBehaviour
 
     private void Awake()
     {
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
+        Screen.orientation = ScreenOrientation.Portrait;
         Application.targetFrameRate = 300;
     }
 
@@ -44,9 +44,9 @@ public class Menu : MonoBehaviour
 
     private void ShowUI()
     {
-        settngs.DOAnchorPosX(-15, 0.8f).Play();
-        record.DOAnchorPosX(15, 0.6f).Play();
-        play.DOAnchorPosY(0, 0.3f).Play();
+        play.DOAnchorPosY(0, 0.5f).Play();
+        settngsBtn.DOAnchorPosY(-10, 0.5f).Play();
+        recordBtn.DOAnchorPosY(-10, 0.5f).Play();
     }
 
     public void SwitchSound()
